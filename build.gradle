@@ -8,11 +8,13 @@ version '0.1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
+    implementation 'com.github.wulkanowy:api:fe7ebc7c54'
     implementation 'com.github.ajalt:clikt:1.6.0'
 }
 
